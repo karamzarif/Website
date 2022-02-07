@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+}
+
+/*Nav bar Section*/
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    align-items: center;
+}
+
+.logo{
+    text-decoration: none;
+    color: rgba(1, 136, 169, 1);
+    font-size: 1.4em;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    float: left;
+}
+
+nav{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0px 20px;
+    margin-bottom: 100px;
+}
+
+.nav-bar{
+    color: #000;
+    transition: 0.7s ease;
+    
+}
+
+
+.nav-bar:hover{
+    color: aqua;
+}
+
+.sign{
+    background-color: rgba(1,136,169,1);
+    padding: 14px 20px;
+    margin-left: 7px;
+    border-radius: 10px;
+    transition: 0.7s ease;
+    display: inline-block;
+}
+
+.inscription{
+    color: #fff;
+    padding: 3px;
+
+}
+
+
+.inscription1{
+    color: #fff;
+    padding: 3px;
+}
+
+.sign i{
+    color: #fff;  
+    padding: 0; 
+}
+
+.sign-in{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    color: rgba(1,136,169,1);
+    text-decoration: none;
+    border: 1px solid;
+    padding: 7px 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: 0.7s ease;
+}
+
+.sign-in:hover{
+    color: white;
+    background-color: rgba(1,136,169,1);
+    border: 1px solid rgba(1,136,169,1);
+}
+
+.sign-up{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(1,136,169,1);
+    text-decoration: none;
+    padding: 7px 20px;
+    border-radius: 10px;
+    transition: 0.7s ease;
+    border: 1px solid rgba(1,136,169,1);
+}
+
+.sign-up:hover{
+    color: rgba(1,136,169,1);
+    background: none;
+    border: 1px solid;
+}
+
+.sign-section a{
+    padding-left: 20px;
+}
+/*main section*/
+section{
+    font-family: 'Poppins', sans-serif;
+    padding: 150px 100px;
+    background-color: #fff;
+
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(pic1.jpg) no-repeat;
+    background-size: 50em;
+    background-position: 60em;
+    background-attachment: fixed;
+}
+
+
+.main h3{
+    font-size: 70px;
+    color: #000;
+}
+
+.main p{
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+/*Main section btn*/
+.main-btn {
+    display: inline-block;
+    padding: 0.9375em 5em;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(1,136,169,1);
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 17px;
+    align-items: center;
+    border-radius: 100px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover, .main-btn:focus{
+    box-shadow: 0 0 7px rgba(1,136,169,1);
+    transform: scale(1.1);
+}
+/*main section social media*/
+section div a i{
+    color: #000;
+    margin-left: 2.3px;
+    font-size: 1.7em;
+    padding-right: 30px;
+    transition: 0.7s ease;
+}
+
+
+.linkedin i{
+    color: #000;
+    transition: 0.7s ease;
+}
+
+.linkedin i:hover{
+    color: #2867B2;
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.twitter i{
+    color: #000;
+    transition: 0.7s ease;
+}
+
+.twitter i:hover{
+    color: #1DA1F2;
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.instagram i{
+    color: #000;
+    transition: 0.7s ease;
+}
+
+.instagram i:hover{
+    color: #bc2a8d;
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.youtube i{
+    color: #000;
+    transition: 0.7s ease;
+}
+
+.youtube i:hover{
+    color: #FF0000;
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
